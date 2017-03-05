@@ -1,5 +1,5 @@
 module.exports.homeList = (req,res)=>{
-    res.render('index',{title:'My Home'});
+    res.render('locations-list',{title:'My Home'});
 }
 
 module.exports.locationInfo = (req,res)=>{
